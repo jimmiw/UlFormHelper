@@ -23,7 +23,7 @@ The code will produce is the following output:
       </ul>
     </form>
 
-Every input, submit, text etc is simply wrapped in an <li/> element.
+Every input, submit, text etc is simply wrapped in an &lt;li/&gt; element.
 
 You can use all the existing functions from the core form helper.
 See the CakePHP's cookbook for examples on how to use the form helper:
