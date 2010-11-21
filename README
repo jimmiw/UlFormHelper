@@ -1,0 +1,20 @@
+A form helper for CakePHP.
+
+This helper simply wraps all form input fields (and all other calls) with LI.
+
+To use it, simply add it to your app/views/helpers folder and add it to the list
+of helpers in your controller:
+
+    var $helpers = array('UlForm');
+
+To create a form with the helper, simply write:
+
+    <?php echo $this->UlForm->create(); ?>
+
+To add close the form again, just call:
+
+    <?php echo $this->UlForm->end();
+
+You can use all the existing functions from the core form helper.
+See the CakePHP's cookbook for examples on how to use the form helper:
+http://book.cakephp.org/view/1383/Form
