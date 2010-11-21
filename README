@@ -13,7 +13,7 @@ To create a form with the helper, simply write:
 
 To add close the form again, just call:
 
-    <?php echo $this->UlForm->end();
+    <?php echo $this->UlForm->end(); ?>
 
 You can use all the existing functions from the core form helper.
 See the CakePHP's cookbook for examples on how to use the form helper:
